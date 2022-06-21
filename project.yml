@@ -1,7 +1,7 @@
 - hosts: app
   become: true
   tasks:
-    - name: init docker centos
+    - name: init docker
       package:
         name: docker
         state: present
