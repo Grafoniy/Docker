@@ -1,8 +1,0 @@
-from ubuntu:22.04
-
-run  apt-get update\
-  && apt-get install -y wget\
-  && rm -rf /var/lib/apt/lists/*
-
-
-run wget https://yandex.ru/favicon.ico -P /tmp/icon
